@@ -12,7 +12,7 @@ import { LocalGuard } from './guards/local.guard';
 import { CreateUserDto } from 'src/users/dto/create-user.dto';
 import { USER_ALREADY_EXISTS } from 'src/utils/constants/user';
 
-@Controller('auth')
+@Controller()
 export class AuthController {
   constructor(
     private readonly authService: AuthService,
