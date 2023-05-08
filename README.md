@@ -1,3 +1,7 @@
-# Докеризация приложения
+# Kupi-podari
+----
+## Деплой приложения на ubuntu с использованием Docker
 
-Перед тем как приступить к выполнению проектной работы разместите в репозитории исходный код фронтенд и бэкенд частей сервиса КупиПодариДай, реализованного вами ранее. 
+ * IP адрес: 84.201.142.87 
+ * Frontend: [https://levvic.nomoredomains.monster/](https://levvic.nomoredomains.monster/)
+ * Backend: [https://api.levvic.nomoredomains.monster/](https://api.levvic.nomoredomains.monster/)
