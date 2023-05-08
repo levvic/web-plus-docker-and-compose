@@ -4,13 +4,13 @@ import helmet from 'helmet';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, { cors: true });
-
+  const PORT = process.env.SERVER_PORT || 4000;
   app.use(
     helmet({
       contentSecurityPolicy: false,
     }),
   );
 
-  await app.listen(3000);
+  await app.listen(PORT);
 }
 bootstrap();
